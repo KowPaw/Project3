@@ -1,0 +1,47 @@
+body {
+	padding-top: 50px;	
+}
+
+section,
+body > div,
+form {
+	margin: 50px 0;
+}
+
+
+.jumbotron {
+	background: url(images/photo-1504616516087-fca44d1f8737.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	min-height: 100vh;
+}
+.jumbotron .container {
+	margin-top: 100px;
+}
+.jumbotron .btn {
+	margin-top: 50px;
+}
+.jumbotron small {
+	color: white;
+}
+
+.mini-gallery h2 {
+	margin-bottom: 25px; 
+}
+.mini-gallery [class*="col-"] {
+	margin-bottom: 10px;
+}
+
+.media img {
+	width: 200px;
+}
+
+@media (max-width: 767px) {
+	body {
+		padding-top: 285px;	
+	}
+	.media img {
+		width: 100px;
+	}
+}
