@@ -2,4 +2,4 @@
 
 zbudowanie strony w oparciu o Bootstrap
 
- https://kowpaw.github.io/Project3/
+https://kowpaw.github.io/Project3/
